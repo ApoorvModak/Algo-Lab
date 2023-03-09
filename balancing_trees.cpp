@@ -4,10 +4,19 @@
 using namespace std;
 
 struct node {
+    // i am adding comments in the given code to make my life miserable.
     int key;
     struct node *parent;
     struct node *left;
     struct node *right;
+};
+
+struct node2{
+    int kye;
+    struct node2 * parent;
+    struct node2 * child1;
+    struct node2 * child2;
+    struct node2 * child3;
 };
 
 struct node *createNode(int key){
